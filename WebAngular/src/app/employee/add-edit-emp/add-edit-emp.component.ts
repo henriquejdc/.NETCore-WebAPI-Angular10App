@@ -24,6 +24,7 @@ export class AddEditEmpComponent implements OnInit {
     this.loadDepartmentList();
   }
 
+  // AÇÕES PARA CONTROLE DOS FUNCIONARIOS
   loadDepartmentList(){
     this.service.getAllDepartmentNames().subscribe((data:any)=>{
       this.DepartmentsList=data;

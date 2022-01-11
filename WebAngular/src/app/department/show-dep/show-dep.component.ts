@@ -24,6 +24,7 @@ export class ShowDepComponent implements OnInit {
     this.refreshDepList();
   }
 
+  // AÇÕES PARA CONTROLE DOS DEPARTAMENTOS
   addClick(){
     this.dep={
       DepartmentId:0,

@@ -20,6 +20,7 @@ export class ShowEmpComponent implements OnInit {
     this.refreshEmpList();
   }
 
+  // AÇÕES PARA CONTROLE DOS FUNCIONARIOS
   addClick(){
     this.emp={
       EmployeeId:0,

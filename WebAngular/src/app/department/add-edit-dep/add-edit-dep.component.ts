@@ -19,6 +19,7 @@ export class AddEditDepComponent implements OnInit {
     this.DepartmentName=this.dep.DepartmentName;
   }
 
+  // AÇÕES PARA CONTROLE DOS DEPARTAMENTOS
   addDepartment(){
     var val = {DepartmentId:this.DepartmentId,
                 DepartmentName:this.DepartmentName};
